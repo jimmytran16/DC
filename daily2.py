@@ -16,7 +16,7 @@ def checkIfEqual(arg1,arg2):
 def translateToDict(arg):
 	counter = 0
 	dict = {}
-	for i in list:	
+	for i in arg:	
 		dict[counter] = i
 		counter = counter +1
 	return dict
@@ -39,14 +39,14 @@ def processList(l):
 	print(newlist)
 			
 			
-#translating the list into a dictionary		
+#translating the list into a dictionary
 list = [1,2,3,4,5]
-#list2 = [3,2,1] <-- fix!!
+list2 = [3,2,1] 
 dict1 = translateToDict(list)
-#dict2 = translateToDict(list2)
+dict2 = translateToDict(list2)
 
 processList(dict1)
-#processList(dict2)
+processList(dict2)
 	
 
 
